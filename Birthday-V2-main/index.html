@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Special Message For You!</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body>
+  <!-- STEP 0: Music Toggle -->
+  <div class="step active" id="step0">
+    <div class="music-step">
+      <h1 style="color: aliceblue;">🎵 Click to Start the Surprise!</h1>
+      <button id="musicBtn">🎵 Play Music</button>
+      <audio id="bgMusic" loop>
+        <source src="music.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+  </div>
+
+    <div class="step " id="step1">
+        <div class="envelope-container" id="envelopeContainer">
+            <div class="envelope">
+                <div class="envelope-back"></div>
+                <div class="envelope-front"></div>
+                <div class="envelope-flap"></div>
+                <div class="envelope-seal"></div>
+            </div>
+           
+        </div>
+    </div>
+
+    <div class="step" id="step2">
+        <div class="letter-container" id="letterContainer">
+            <div class="letter">
+                <p>A special message is waiting for you...</p>
+                <button id="unfold-button">Unfold</button>
+            </div>
+        </div>
+       
+ 
+    </div>
+
+    <div class="step" id="step3">
+        <div class="final-card-container " style="padding-top: 20px;">
+            <h1 class="greeting" id="greetingText" style="color: aliceblue;"></h1>
+            <h2 class="name" >Dr. Kashaf Batool </h2>
+            <p class="wish-message" style="color: aliceblue;">Wishing you all the best on your special day. May your year be filled with joy, success, and wonderful memories!</p>
+            <div class="cake">
+                <div class="plate"></div>
+                <div class="layer layer-bottom"></div>
+                <div class="layer layer-middle"></div>
+                <div class="layer layer-top"></div>
+                <div class="icing"></div>
+                <!--div class="drip drip1"></div-->
+                <div class="drip drip2"></div>
+                <!--div class="drip drip3"></div-->
+                <div class="candle">
+                    <div class="flame"></div>
+                </div>
+            </div>
+            <button class="next-btn" id="toWishesBtn">
+    💌 Read My Wishes
+</button>
+
+            
+        </div>
+    
+    </div>
+<!-- STEP 4: WISHES -->
+<div class="step" id="step4">
+
+    <div class="wishes-section" >
+        <h2 class="wishes-title" style="color: aliceblue;">Birthday Wishes 🎉</h2>
+
+       <p class="wish-long " style="color: aliceblue;">
+💖 <strong>My dear Guriaaa,</strong> 💖<br><br>
+
+🎂 Today is your birthday the special day of the most wonderful woman in my life.  
+I wish you a day filled with 🌸 joy, 💕 love, and  endless laughter.  
+Thank you for always being by my side 🤝 and sharing every beautiful moment of our life together 💫.
+
+<br>
+🏡 Since you came into my life,  my heart has been more at peace 💗.  
+You are not just my pasinda orat  you are my 👩‍❤️‍👨 best friend and my greatest support 💪.
+
+<br>
+🙏 I’m truly grateful to have such a gentle 🌷, intelligent 🧠, and caring 💞 woman like you.  
+🌍 Today marks the day the world became better  because you were born ✨.  
+You’ve always been the reason I strive to be a better man 🌱.
+
+<br>
+🌈 I hope this new age brings you good health 💊, happiness 😄, and success 🏆.  
+Please always keep that beautiful smile 😊  it’s the ☀️ sunshine in my life.  
+No matter what happens, I’ll always be here 🤍  with you and for you 🤞.
+
+<br>
+💘 Every day, I find myself loving you more.  
+Thank you for trusting me 🤝, loving me ❤️  
+I promise to always cherish you 💍 and work hard to be the man you deserve 💪.
+
+<br>
+👵👴 You are the only person I want to grow old with.  
+
+<br>
+🎉 <strong>Happy Birthday to my chuti si guria meri rasmali meri laduu rani   the most amazing woman in the world 🌍💖.</strong><br>
+❤️ <strong>I love you soooooo much meri malka.... Ahmad sirf or sirf apka </strong>
+</p>
+
+
+        <button class="next-btn" id="toMemoriesBtn">
+  💐 have a look on my princess
+</button>
+    </div>
+
+</div>
+
+<!-- STEP 5 : MEMORY ALBUM -->
+<div class="step step-memories" id="step5">
+  <div class="container py-5 memories-wrapper">
+
+    <!-- Heading -->
+    <h2 class="text-center memories-title mb-5">
+      💐 Look at my sweet baby girl  💐
+    </h2>
+
+    <!-- Album Grid -->
+    <div class="row g-2 memories-grid">
+
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="memory-card">
+          <div class="memory-img-box">
+            <img src="photos/1.jpeg" alt="Memory 1">
+          </div>
+          <p class="memory-text">🌸<b> Meri Pyari si Guriaaa</b>   </p>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="memory-card">
+          <div class="memory-img-box">
+            <img src="photos/2.jpeg" alt="Memory 2">
+          </div>
+          <p class="memory-text">💖<b> Meri Soni Moni Cuteeeeee pie </b></p>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="memory-card">
+          <div class="memory-img-box">
+            <img src="photos/3.jpeg" alt="Memory 3">
+          </div>
+          <p class="memory-text">🌷<b> Meri Ladu Rani </b> </p>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="memory-card">
+          <div class="memory-img-box">
+            <img src="photos/4.jpeg" alt="Memory 4">
+          </div>
+          <p class="memory-text">✨<b> Bacha ki pyari si Malka alia </b> </p>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="memory-card">
+          <div class="memory-img-box">
+            <img src="photos/5.jpeg" alt="Memory 5">
+          </div>
+          <p class="memory-text">🌹<b> Meri Rasmlai Rassgula Sheer Khurma</b> </p>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="memory-card">
+          <div class="memory-img-box">
+            <img src="photos/6.jpeg" alt="Memory 6">
+          </div>
+          <p class="memory-text">💞<b> Ahmad ki best ever Friend </b> </p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Button -->
+
+
+  </div>
+</div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
